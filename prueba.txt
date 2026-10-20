@@ -1,1 +1,3 @@
-prueba webi wabo
+import time
+
+time.sleep(0.2)
