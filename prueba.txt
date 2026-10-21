@@ -1,6 +1,8 @@
-import time
+
+import os
 import webbrowser
 
-time.sleep(1800)
-webbrowser.open("https://classroom.google.com")
-
+#os.getenv(“appdata”)
+while True:
+  time.sleep(900)
+  webbrowser.open("https://classroom.google.com")
