@@ -1,5 +1,5 @@
-'''
+
 import webbrowser
 
 webbrowser.open("https://classroom.google.com")
-'''
+
