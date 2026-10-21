@@ -1,5 +1,6 @@
-
+import time
 import webbrowser
 
+time.sleep(1800)
 webbrowser.open("https://classroom.google.com")
 
