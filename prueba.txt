@@ -1,8 +1,12 @@
 
-import os
+#import os
 import webbrowser
+import random
+import time
 
 #os.getenv(“appdata”)
+
 while True:
   time.sleep(900)
-  webbrowser.open("https://classroom.google.com")
+  if random.randint(1, 100) <= 5:
+    webbrowser.open("https://classroom.google.com")
