@@ -1,14 +1,11 @@
-
-
-
+from datetime import datetime
 import webbrowser
 import time
 
-#os.getenv(“appdata”)
-
 while True:
-  time.sleep(900)
-  if True:
+    time.sleep(900)
     webbrowser.open("https://mail.google.com")
-  time.sleep(1500)
-  os.system("shutdown /s /t 0")
+    while True:
+        if datetime.now().hour == 14 and datetime.now().minute > 28:
+            os.system("shutdown /s /t 0")
+        time.sleep(30)
